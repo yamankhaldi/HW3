@@ -54,7 +54,7 @@ public class Board {
         String theBoard = "";
         for (int i = 0; i < cells.length; i++) {
             for (int j = 0; j < cells[0].length; j++) {
-                theBoard += cells[i][j].toString() + " ";
+                theBoard += cells[i][j].toString();
             }
             if (i != cells.length - 1)
                 theBoard += "\n";
